@@ -1,0 +1,16 @@
+senum x
+senum y
+lovar y
+nnset 5
+if y,==1,16
+lovar y
+nvpri
+if y,%2==0,12
+nnmul 3
+nnadd 1
+ntolin 13
+nndiv 2
+lovar x
+nnadd 1
+ntolin 5
+stpri done
