@@ -6,3 +6,4 @@ sample programs in NBASC that I made
 |-|-|-|
 |collatz.nbasc|16|2|
 |sin.nbasc|33|6|
+|colors.nbasc|9|1|
