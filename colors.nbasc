@@ -1,0 +1,11 @@
+senum i
+senum a
+senum b
+if i,>256,10
+lovar i
+nnadd 1
+fgvcol i
+instpri █
+ntolin 4
+stpri  
+fgvcol 1
