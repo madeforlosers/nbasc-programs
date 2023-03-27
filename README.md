@@ -5,3 +5,4 @@ sample programs in NBASC that I made
 |Filename|Lines of code|Variable count|
 |-|-|-|
 |collatz.nbasc|16|2|
+|sin.nbasc|33|6|
