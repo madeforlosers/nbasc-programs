@@ -1,0 +1,16 @@
+gtinp >,a
+senum b
+lovar b
+nnvset a
+nnsub 18
+nnmul -1
+if b,<=0,15
+sestr c
+lovar c
+nsadd you have 
+nsvadd b
+nsadd  more years before you are 18!
+nvpri
+ntolin 16
+stpri you are already 18 or older!
+# done
