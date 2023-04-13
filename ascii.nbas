@@ -1,0 +1,11 @@
+senum a
+lovar a
+nnadd 32
+if a,>125,11
+lovar a
+nnadd 1
+sefccfv b,a
+lovar b
+nvpri 
+ntolin 4
+# done
