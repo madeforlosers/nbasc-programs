@@ -3,7 +3,7 @@ sample programs in NBASC that I made
 
 ## programs
 |Filename|Description|Lines of code|Variable count|
-|-|-|-|
+|-|-|-|-|
 |collatz.nbasc|Generates the Collatz conjecture (3x+1 problem)|16|2|
 |sin.nbasc|Generates a sine wave|33|6|
 |colors.nbasc|Prints 255 colors|9|1|
