@@ -1,0 +1,18 @@
+senum f
+senum b
+sestr text
+lovar b
+nnset 5
+nndiv 9
+stpri convert fahrenheit to celcius!
+gtinp >,tempf
+lovar f
+nnvset tempf
+nnsub 32
+nnvmul b
+lovar text
+nsvadd tempf
+nsadd °F to celcius is 
+nsvadd f
+nsadd °C
+nvpri
