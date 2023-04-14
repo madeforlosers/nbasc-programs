@@ -1,0 +1,27 @@
+sernd yourcard,1,11
+sernd opponentcard,1,11
+sestr dialogue
+lovar dialogue
+nsadd your card is 
+nsvadd yourcard
+nsadd ; is mine higher or lower? (1/0)
+nvpri
+gtinp >,inp
+ifhigher yourcard,opponentcard,out
+lovar out
+if out,==1,19
+stpri mine was higher!
+if inp,==1,17
+stpri you were wrong!
+ntolin 24
+stpri you were right!
+ntolin 24
+stpri mine was lower!
+if inp,==0,23
+stpri you were wrong!
+ntolin 24
+stpri you were right!
+stpri my card was:
+lovar opponentcard
+nvpri
+# i'm not exactly sure if this works properly but eh it was still fun to make
