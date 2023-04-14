@@ -11,3 +11,4 @@ sample programs in NBASC that I made
 |ascii.nbas|generates ASCII characters !-~|11|2|
 |hilo.nbas|plays a Higher-Lower game where you get a number and guess if your opponents number is higher or lower than yours|27|5|
 |f_to_c.nbas|Converts Fahrenheit to Celcius|18|4|
+|8ball.nbas|Magic 8 Ball|31|4|
