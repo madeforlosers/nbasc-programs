@@ -1,0 +1,31 @@
+selis ball
+lovar ball
+nladd It is certain
+nladd Without a doubt
+nladd You may rely on it
+nladd Yes definitely
+nladd It is decidedly so
+nladd As I see it, yes
+nladd Most likely
+nladd Yes
+nladd Outlook good
+nladd Signs point to yes
+nladd Reply hazy try again
+nladd Better not tell you now
+nladd Ask again later
+nladd Cannot predict now
+nladd Concentrate and ask again
+nladd Don’t count on it
+nladd Outlook not so good
+nladd My sources say no
+nladd Very doubtful
+nladd My reply is no
+stpri what is your question?
+gtinp >,question
+sernd rand,0,19
+lovar rand
+nngtflp ball,answer
+instpri your answer is: 
+fgcol 1
+lovar answer
+nvpri
